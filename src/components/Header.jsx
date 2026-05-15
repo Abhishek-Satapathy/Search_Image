@@ -59,7 +59,7 @@ const Header = () => {
           onChange={(e) => dispatch(setPerPage(Number(e.target.value)))}
           className="ml-3 bg-transparent text-gray-300 px-3 py-2 rounded-md border border-white/10 focus:outline-none"
         >
-          {[12, 24, 36].map((num) => (
+          {[6, 12, 24].map((num) => (
             <option key={num} value={num} className="bg-black">
               {num}
             </option>

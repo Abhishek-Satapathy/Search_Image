@@ -5,7 +5,7 @@ const searchSlice = createSlice({
     name: 'search',
     initialState: {
         query: '',
-        per_page: 12
+        per_page: 6
     },
     reducers: {
         setQuery(state, action) {
